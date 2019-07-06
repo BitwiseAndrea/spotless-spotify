@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Spotless Spotify",
+  "version": "0.1.0",
+  "description": "Some arguably positive UI changes to the Spotify web player.",
+ 
+  "content_scripts": [{
+    "matches": ["https://open.spotify.com/*"],
+    "css": ["/styles.css"],
+	"run_at": "document_start"
+  }]
+ 
+}

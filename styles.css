@@ -1,0 +1,285 @@
+body {
+	min-width: auto !important;
+	overflow: hidden;
+}
+
+.navbar-link__text {
+	margin-right: 0 !important;
+}
+
+.Root__top-container {
+	grid-template-areas: "nav-bar main-view" "nav-bar now-playing-bar" !important;
+}
+
+.Root__nav-bar {
+	background-color: rgb(0,0,0,0.15) !important;
+	overflow-y: initial !important;
+	width: auto !important;
+}
+
+.Root__now-playing-bar {
+	background-color: rgb(0,0,0,0.15) !important;
+}
+
+.now-playing-bar-container {
+	background-color: transparent !important;
+	border-top: none !important;
+	margin-right: 16px !important;
+}
+
+.navBar-group-header {
+	padding-right: 24px !important;
+}
+
+.RecentlyPlayedWidget__playing-icon {
+	width: auto !important;
+	margin-left: 5px !important;
+}
+
+.control-button--circled:after {
+	border-width: 1.5px !important;
+}
+
+.ArtistAbout__insights {
+	-webkit-box-flex: 2 !important;
+	flex: 2 !important;
+}
+
+/* Fix flash of unstyled content in "Connect to a device" menu */
+img.connect-header__image {
+	height: 86px;
+	/* Flip color */
+	filter: invert(1);
+}
+
+/* Getting rid of matte gray */
+.react-contextmenu,
+.connect-device-list-container,
+.connect-device-list-item,
+.connect-device-list-item__icon,
+.connect-device-list-item__device-subtitle {
+	background-color: #ffffff !important;
+	color: #000000 !important;
+	font-weight: 600 !important;
+}
+
+.react-contextmenu-item,
+.connect-device-list-item {
+	opacity: 0.6 !important;
+}
+
+.react-contextmenu-item.active,
+.react-contextmenu-item:hover,
+.connect-device-list-item--active,
+.connect-device-list-item:hover {
+	opacity: 1 !important;
+	background-color: #ffffff !important;
+	color: #000000 !important;
+}
+
+.connect-title__text,
+.connect-title__help {
+	color: #000000 !important;
+}
+
+a.connect-title__help {
+	opacity: 0.6 !important;
+}
+
+.connect-device-list-container .btn{
+	color: #000000 !important;
+	border: 1.5px solid #000000 !important;
+	font-weight: 600 !important;
+	opacity: 0.6 !important;
+}
+
+.connect-device-list-container .connect-info .btn:not(.disabled):focus,
+.connect-device-list-container .connect-info .btn:not(.disabled):hover,
+a.connect-title__help:hover {
+	opacity: 1 !important;
+	background-color: #ffffff !important;
+	color: #000000 !important;
+}
+
+/* Getting rid of green */
+.btn.btn-green,
+.btn.btn-blue {
+	background-color: transparent !important;
+	border: 1.5px solid #ffffff;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+}
+
+.ConnectBar {
+	background-color: #ffffff !important;
+	color: #0E0E0E !important;
+	font-weight: var(--glue-font-weight-bold) !important;
+}
+
+.ConnectBar:after {
+	border-bottom-color: #ffffff !important;
+}
+.connect-device-list-container:before {
+	border-top-color: #ffffff !important;
+}
+
+.btn.btn-green:not(.disabled):hover,
+.btn.btn-blue:not(.disabled):hover {
+	background-color: #0000004d !important;
+}
+
+.btn-fg-green,
+.mo-info-name,
+.link-subtle,
+.UserWidget__link--is-active {
+	color: #fff !important;
+}
+
+.contentSpacing > nav > ul > li > div > a,
+.control-button--active,
+.control-button--active:after,
+.control-button--active:hover,
+.control-button--active:hover:after,
+.tracklist-row--active .tracklist-col .position,
+.tracklist-row--active .tracklist-col .tracklist-duration,
+.tracklist-row--active .tracklist-col .tracklist-name,
+.tracklist-row--active .tracklist-col .tracklist-play-pause {
+	color: #fff !important;
+	opacity: 1 !important;
+}
+
+/* Should do a size transform for hovering to show clickability */
+
+.btn-transparent:hover,
+.link-subtle:hover,
+.contentSpacing > nav > ul > li > div > a:hover {
+	background-color: #0000004d !important;
+}
+
+.feedbackBar-animation-enter,
+.feedbackBar-animation-enter-active,
+.feedbackBar-animation-enter-done,
+.feedbackBar-animation-exit,
+.feedbackBar-animation-exit-active,
+.feedbackBar-animation-exit-done {
+	/* Center text in feedback bar */
+	text-align: center !important;
+	background-color: rgba(24,24,24,.7) !important;
+}
+
+.SearchInputBox__input {
+	caret-color: #ffffff !important;
+}
+
+.SearchInputBox {
+	background-color: #0E0E0E !important;
+}
+
+li.tracklist-row.tracklist-row--active,
+button.connect-device-list-item.connect-device-list-item--active {
+	border-left: 4px white solid !important;
+	margin-left: -4px !important;
+}
+
+/* Add in sessionInfo as long as it is active (active is defined a couple levels down) */
+
+.tracklist-row--active:before,
+.navBar-link--active:after,
+.asideButton-container > nav > ul > li > div > a:before,
+.contentSpacing > nav > ul > li > div > a:before,
+.Search__content > nav > ul > li > div > a:before,
+.artist-header > nav > ul > li > div > a:before,
+.RecentlyPlayedWidget__link--active:after,
+.progress-bar--is-active .progress-bar__fg,
+.control-button--active-dot:after {
+	background-color: #ffffff !important;
+}
+
+/* Responsive */
+@media (max-width: 720px) {
+	.Root__top-container {
+		grid-template-columns: 75px calc(100% - 75px) !important;
+	}
+
+	.navBar-logo--size-large,
+	.navbar-link__text,
+	.UserWidget__user-link,
+	.recently-played.navBar-group {
+		display: none !important;
+	}
+
+	.navBar-logo--size-small {
+		display: block !important;
+		padding-left: 
+	}
+
+	.navBar-item .download-icon {
+		height: 25px !important;
+		width: 25px !important;
+	}
+}
+
+@media (min-width: 721px) {
+	.Root__top-container {
+		grid-template-columns: 200px calc(100% - 200px) !important;
+	}
+
+	.SearchInputBox {
+		left: 200px !important;
+	}
+
+	.sessionInfo {
+		padding: 0 !important;
+		margin: 0 0 24px !important;
+	}
+
+	.UserWidget__container {
+		padding: 8px 21px !important;
+	}
+}
+
+/* Centering artist header image */
+[dir=ltr] header.artist-header {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+}
+
+/* Centering tracklist buttons */
+.tracklist-top-align {
+	position: relative !important;
+    top: 50% !important;
+    -webkit-transform: translateY(-50%) !important;
+    transform: translateY(-50%) !important;
+    margin-top: 0 !important;
+}
+
+.tracklist-top-align.position {
+    margin-top: 0 !important;
+}
+
+
+/* Adding pointers to things that are clickable */
+.tracklist-play-pause,
+.btn {
+	cursor: pointer !important;
+}
+
+/* Moving play icon a little to the right*/
+a.navBar-link.link-subtle.RecentlyPlayedWidget__link.active {
+    padding-right: 16px !important;
+}
+
+/* New lil toast dudes are blue, lets make them white with black text */
+div[role=alert] {
+	background-color: #ffffff !important;
+	color: #000000 !important;
+}
+
+/*
+TODOs
+- Sample middle of gradient color for menus so they aren't just black
+- Fill in thumbs up or thumbs down (probably only thumbs up)
+  if we know we already thumbsed up it (or maybe if it's in your library?)
+- Get search page to have a gray to black gradient
+- Apply cursor to button types, but not if they contain the class "disabled"
+*/
