@@ -217,6 +217,10 @@ button.connect-device-list-item.connect-device-list-item--active {
     width: 100% !important;
   }
 
+	.now-playing-bar {
+		padding: 0 !important;
+	}
+
 	.navBar-item .download-icon {
 		height: 25px !important;
 		width: 25px !important;
@@ -239,6 +243,13 @@ button.connect-device-list-item.connect-device-list-item--active {
 
 	.UserWidget__container {
 		padding: 8px 21px !important;
+	}
+}
+
+/* Hide album cover art when the now playing bar gets small */
+@media (max-width: 835px) {
+	.now-playing__widget-overlay {
+		display: none !important;
 	}
 }
 
