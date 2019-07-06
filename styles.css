@@ -210,8 +210,12 @@ button.connect-device-list-item.connect-device-list-item--active {
 
 	.navBar-logo--size-small {
 		display: block !important;
-		padding-left: 
+		padding-left: 0 !important;
 	}
+
+	.logo .spotify-logo {
+    width: 100% !important;
+  }
 
 	.navBar-item .download-icon {
 		height: 25px !important;
