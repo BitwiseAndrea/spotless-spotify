@@ -131,7 +131,10 @@ a.connect-title__help:hover {
 .btn-fg-green,
 .mo-info-name,
 .link-subtle,
-.UserWidget__link--is-active {
+.UserWidget__link--is-active,
+.Rootlist__playlists-header,
+.RootlistItem__link,
+.RootlistItemFolder__name {
 	color: #fff !important;
 }
 
@@ -143,7 +146,8 @@ a.connect-title__help:hover {
 .tracklist-row--active .tracklist-col .position,
 .tracklist-row--active .tracklist-col .tracklist-duration,
 .tracklist-row--active .tracklist-col .tracklist-name,
-.tracklist-row--active .tracklist-col .tracklist-play-pause {
+.tracklist-row--active .tracklist-col .tracklist-play-pause,
+.CreatePlaylistButton {
 	color: #fff !important;
 	opacity: 1 !important;
 }
@@ -152,7 +156,9 @@ a.connect-title__help:hover {
 
 .btn-transparent:hover,
 .link-subtle:hover,
-.contentSpacing > nav > ul > li > div > a:hover {
+.contentSpacing > nav > ul > li > div > a:hover,
+.RootlistItem:hover,
+.CreatePlaylistButton:hover {
 	background-color: #0000004d !important;
 }
 
@@ -191,7 +197,8 @@ button.connect-device-list-item.connect-device-list-item--active {
 .artist-header > nav > ul > li > div > a:before,
 .RecentlyPlayedWidget__link--active:after,
 .progress-bar--is-active .progress-bar__fg,
-.control-button--active-dot:after {
+.control-button--active-dot:after,
+.RootlistItem--is-active:before {
 	background-color: #ffffff !important;
 }
 
@@ -204,7 +211,8 @@ button.connect-device-list-item.connect-device-list-item--active {
 	.navBar-logo--size-large,
 	.navbar-link__text,
 	.UserWidget__user-link,
-	.recently-played.navBar-group {
+	.recently-played.navBar-group,
+	.Rootlist__playlists {
 		display: none !important;
 	}
 
@@ -238,7 +246,7 @@ button.connect-device-list-item.connect-device-list-item--active {
 
 	.sessionInfo {
 		padding: 0 !important;
-		margin: 0 0 24px !important;
+		margin: 0 0 5px !important;
 	}
 
 	.UserWidget__container {
