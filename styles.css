@@ -128,16 +128,6 @@ a.connect-title__help:hover {
 	background-color: #0000004d !important;
 }
 
-.btn-fg-green,
-.mo-info-name,
-.link-subtle,
-.UserWidget__link--is-active,
-.Rootlist__playlists-header,
-.RootlistItem__link,
-.RootlistItemFolder__name {
-	color: #fff !important;
-}
-
 .contentSpacing > nav > ul > li > div > a,
 .control-button--active,
 .control-button--active:after,
@@ -157,6 +147,49 @@ a.connect-title__help:hover {
 .GlueDropTarget--active .ExtraControls__toggle-queue:after,
 .CreatePlaylistButton--is-drop-target-active:after {
 	border-color: #ffffff !important;
+}
+
+.navBar-link--active:before,
+.RootlistItem--is-active:before,
+._137ec408b14ac4ea5aec6ded3d95f328-scss.be059487cfa7b71ee0f482c8e5be2b7e-scss:before,
+._11f5fc88e3dec7bfec55f7f49d581d78-scss,
+.control-button--active-dot:after {
+    background-color: #ffffff !important;
+}
+
+.mo-info-name,
+.link-subtle,
+.UserWidget__link--is-active,
+.Rootlist__playlists-header,
+.RootlistItem__link,
+.RootlistItemFolder__name,
+.navBar-item .GlueDropTarget--active
+.navBar-item .GlueDropTarget--active:after,
+svg,
+.RootlistItem--is-drop-target-active .GlueDropTarget,
+.RootlistItem--is-drop-target-active .GlueDropTarget:after,
+.CreatePlaylistButton--is-drop-target-active:after,
+.btn.btn-fg-green,
+.GlueDropTarget--active .ExtraControls__toggle-queue,
+.GlueDropTarget--active .ExtraControls__toggle-queue:after,
+.control-button--active,
+.control-button--active:not(.control-button--disabled):focus,.control-button--active:not(.control-button--disabled):hover,
+.control-button--active:not(.control-button--disabled):active:focus,.control-button--active:not(.control-button--disabled):active:hover,
+.GlueDropTarget--active .media-object,
+.GlueDropTarget--active .media-object:after {
+    color: #ffffff !important;
+}
+
+.navBar-item .GlueDropTarget--active:after,
+.RootlistItem--is-drop-target-active .GlueDropTarget:after,
+.CreatePlaylistButton--is-drop-target-active:after,
+.GlueDropTarget--active .ExtraControls__toggle-queue:after,
+.GlueDropTarget--active .media-object:after {
+    border: 1px solid #ffffff !important;
+}
+
+polygon {
+  fill: #282828 !important;
 }
 
 /* Should do a size transform for hovering to show clickability */
@@ -304,6 +337,15 @@ a.navBar-link.link-subtle.RecentlyPlayedWidget__link.active {
 div[role=alert] {
 	background-color: #ffffff !important;
 	color: #000000 !important;
+}
+
+/* Center headers */
+._80e9295c4bd7a5a37b069da6ec674a8f-scss>:first-child {
+    grid-column: 2/6 !important;
+}
+
+._09de7f5685fbf244f783483fedae7419-scss {
+    text-align: center !important;
 }
 
 /*
