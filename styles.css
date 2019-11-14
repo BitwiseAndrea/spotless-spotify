@@ -128,7 +128,6 @@ a.connect-title__help:hover {
 	background-color: #0000004d !important;
 }
 
-.contentSpacing > nav > ul > li > div > a,
 .control-button--active,
 .control-button--active:after,
 .control-button--active:hover,
@@ -137,9 +136,17 @@ a.connect-title__help:hover {
 .tracklist-row--active .tracklist-col .tracklist-duration,
 .tracklist-row--active .tracklist-col .tracklist-name,
 .tracklist-row--active .tracklist-col .tracklist-play-pause,
-/*.CreatePlaylistButton,*/
 .GlueDropTarget--active .ExtraControls__toggle-queue {
 	color: #fff !important;
+	opacity: 1 !important;
+}
+
+.navBar-link {
+	opacity: 0.6 !important;
+}
+
+.navBar-link--active,
+.navBar-link:hover {
 	opacity: 1 !important;
 }
 
@@ -158,10 +165,8 @@ a.connect-title__help:hover {
 }
 
 .mo-info-name,
-/*.link-subtle,*/
 .UserWidget__link--is-active,
 .Rootlist__playlists-header,
-/*.RootlistItem__link,*/
 .RootlistItemFolder__name,
 .navBar-item .GlueDropTarget--active
 .navBar-item .GlueDropTarget--active:after,
@@ -176,7 +181,8 @@ svg,
 .control-button--active:not(.control-button--disabled):focus,.control-button--active:not(.control-button--disabled):hover,
 .control-button--active:not(.control-button--disabled):active:focus,.control-button--active:not(.control-button--disabled):active:hover,
 .GlueDropTarget--active .media-object,
-.GlueDropTarget--active .media-object:after {
+.GlueDropTarget--active .media-object:after,
+.link-subtle {
     color: #ffffff !important;
 }
 
@@ -196,13 +202,9 @@ polygon {
     caret-color: #ffffff !important;
 }
 
-/* Should do a size transform for hovering to show clickability */
-
 .btn-transparent:hover,
-/*.link-subtle:hover,*/
 .contentSpacing > nav > ul > li > div > a:hover,
-.RootlistItem:hover,
-/*.CreatePlaylistButton:hover*/ {
+.RootlistItem:hover {
 	background-color: #0000004d !important;
 }
 
