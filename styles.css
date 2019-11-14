@@ -137,7 +137,7 @@ a.connect-title__help:hover {
 .tracklist-row--active .tracklist-col .tracklist-duration,
 .tracklist-row--active .tracklist-col .tracklist-name,
 .tracklist-row--active .tracklist-col .tracklist-play-pause,
-.CreatePlaylistButton,
+/*.CreatePlaylistButton,*/
 .GlueDropTarget--active .ExtraControls__toggle-queue {
 	color: #fff !important;
 	opacity: 1 !important;
@@ -158,10 +158,10 @@ a.connect-title__help:hover {
 }
 
 .mo-info-name,
-.link-subtle,
+/*.link-subtle,*/
 .UserWidget__link--is-active,
 .Rootlist__playlists-header,
-.RootlistItem__link,
+/*.RootlistItem__link,*/
 .RootlistItemFolder__name,
 .navBar-item .GlueDropTarget--active
 .navBar-item .GlueDropTarget--active:after,
@@ -189,16 +189,20 @@ svg,
 }
 
 polygon {
-  fill: #282828 !important;
+    fill: #282828 !important;
+}
+
+.inputBox-input {
+    caret-color: #ffffff !important;
 }
 
 /* Should do a size transform for hovering to show clickability */
 
 .btn-transparent:hover,
-.link-subtle:hover,
+/*.link-subtle:hover,*/
 .contentSpacing > nav > ul > li > div > a:hover,
 .RootlistItem:hover,
-.CreatePlaylistButton:hover {
+/*.CreatePlaylistButton:hover*/ {
 	background-color: #0000004d !important;
 }
 
@@ -346,6 +350,25 @@ div[role=alert] {
 
 ._09de7f5685fbf244f783483fedae7419-scss {
     text-align: center !important;
+}
+
+header.artist-header>* {
+    text-align: center !important;
+}
+
+header.artist-header h1 {
+		max-width: 100% !important;
+}
+
+/* Hide svg on playlist buttons */
+button.spoticon-play-16 svg {
+		display: none !important;
+}
+
+/* Remove padding and backgrounds on cards */
+._5658c6accf868644593ce36887a475b1-scss {
+		background: none !important;
+		padding: 5px 5px 4px !important;
 }
 
 /*
