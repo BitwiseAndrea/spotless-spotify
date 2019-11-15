@@ -373,6 +373,11 @@ button.spoticon-play-16 svg {
 		padding: 5px 5px 4px !important;
 }
 
+/* Extend background gradient */
+.af7ed65aa06ef3900474134b117200be-scss {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(18, 18, 18) 100%) !important;
+}
+
 /*
 TODOs
 - Sample middle of gradient color for menus so they aren't just black

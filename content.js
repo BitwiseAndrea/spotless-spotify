@@ -3,20 +3,6 @@ $(document).ready(function(){
 
   $(window).on("load", function(){
      $.ready.then(function(){
-       var backgroundElementSelector = "div.af7ed65aa06ef3900474134b117200be-scss";
-       var extendBackground = function (element) {
-         // Extend linear gradient further down the page and go diagonal like old style
-         const style = getComputedStyle(element);
-         var backgroundImage = style.backgroundImage;
-         var newBackgroundImage = backgroundImage.replace("40%", "100%");
-         element.style.backgroundImage = newBackgroundImage;
-       };
-
-       var backgroundElements = $(backgroundElementSelector);
-       for (var i = 0; i < backgroundElements.length; i++) {
-         extendBackground(backgroundElements[i]);
-       }
-
        var playlistCardPlayButtonSelector = "button._11f5fc88e3dec7bfec55f7f49d581d78-scss";
        var replacePlayButton = function (element) {
          // Replace play buttons on playlists with play button from nav bar
@@ -32,15 +18,6 @@ $(document).ready(function(){
        }
 
        var checkElement = function (element) {
-         if (element.matches && element.matches(backgroundElementSelector)) {
-           extendBackground(element);
-         } else if (element.querySelector) {
-           var backgroundElement = element.querySelector(backgroundElementSelector);
-           if (backgroundElement) {
-             extendBackground(backgroundElement);
-           }
-         }
-
          if (element.matches && element.matches(playlistCardPlayButtonSelector)) {
            replacePlayButton(element);
          } else if (element.querySelector) {
