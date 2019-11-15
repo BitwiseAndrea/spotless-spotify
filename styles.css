@@ -123,11 +123,6 @@ a.connect-title__help:hover {
 	border-top-color: #ffffff !important;
 }
 
-.btn.btn-green:not(.disabled):hover,
-.btn.btn-blue:not(.disabled):hover {
-	background-color: #0000004d !important;
-}
-
 .control-button--active,
 .control-button--active:after,
 .control-button--active:hover,
@@ -203,9 +198,10 @@ polygon {
 }
 
 .btn-transparent:hover,
-.contentSpacing > nav > ul > li > div > a:hover,
-.RootlistItem:hover {
-	background-color: #0000004d !important;
+.btn.btn-green:not(.disabled):hover,
+.btn.btn-blue:not(.disabled):hover,
+.contentSpacing > nav > ul > li > div > a:hover {
+	background-color: hsla(0,0%,100%,.1) !important;
 }
 
 .feedbackBar-animation-enter,
