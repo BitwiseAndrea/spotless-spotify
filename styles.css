@@ -359,7 +359,8 @@ header.artist-header h1 {
 }
 
 /* Hide svg on playlist buttons */
-button.spoticon-play-16 svg {
+button.spoticon-play-16 svg,
+button.spoticon-pause-16 svg {
 		display: none !important;
 }
 
