@@ -106,9 +106,20 @@ a.connect-title__help:hover {
 .btn.btn-blue,
 button._11f5fc88e3dec7bfec55f7f49d581d78-scss {
 	background-color: transparent !important;
+}
+
+/* Playlist play button background */
+button._11f5fc88e3dec7bfec55f7f49d581d78-scss {
+	background-color: #000000 !important
+}
+
+/* Button borders */
+.btn.btn-green,
+.btn.btn-blue,
+button._11f5fc88e3dec7bfec55f7f49d581d78-scss {
 	border: 1.5px solid #ffffff !important;
-  transition-duration: .2s !important;
-  transition-timing-function: linear !important;
+    transition-duration: .2s !important;
+    transition-timing-function: linear !important;
 }
 
 .ConnectBar {
