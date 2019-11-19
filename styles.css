@@ -86,7 +86,7 @@ a.connect-title__help {
 	opacity: 0.6 !important;
 }
 
-.connect-device-list-container .btn{
+.connect-device-list-container .btn {
 	color: #000000 !important;
 	border: 1.5px solid #000000 !important;
 	font-weight: 600 !important;
@@ -364,6 +364,16 @@ header.artist-header h1 {
 /* Extend background gradient */
 .af7ed65aa06ef3900474134b117200be-scss {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(18, 18, 18) 100%) !important;
+}
+
+/* Playlist cards  play button centering */
+._1de9257b60b3c93e84ea27e0f0862af8-scss {
+    min-height: 52px !important;
+}
+
+/* Search icon in search field should stay it's og color */
+svg.ded5a23eeb23e836ffb86a831d247eab-scss {
+    color: #121212 !important;
 }
 
 /*
