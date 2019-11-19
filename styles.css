@@ -229,7 +229,6 @@ button.connect-device-list-item.connect-device-list-item--active {
 /* Add in sessionInfo as long as it is active (active is defined a couple levels down) */
 
 .tracklist-row--active:before,
-.navBar-link--active:after,
 .asideButton-container > nav > ul > li > div > a:before,
 .contentSpacing > nav > ul > li > div > a:before,
 .Search__content > nav > ul > li > div > a:before,
