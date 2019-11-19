@@ -103,7 +103,8 @@ a.connect-title__help:hover {
 
 /* Getting rid of green */
 .btn.btn-green,
-.btn.btn-blue {
+.btn.btn-blue,
+button._11f5fc88e3dec7bfec55f7f49d581d78-scss {
 	background-color: transparent !important;
 	border: 1.5px solid #ffffff !important;
   transition-duration: .2s !important;
@@ -187,10 +188,6 @@ svg,
 .GlueDropTarget--active .ExtraControls__toggle-queue:after,
 .GlueDropTarget--active .media-object:after {
     border: 1px solid #ffffff !important;
-}
-
-polygon {
-    fill: #282828 !important;
 }
 
 .inputBox-input {
@@ -356,12 +353,6 @@ header.artist-header>* {
 
 header.artist-header h1 {
 		max-width: 100% !important;
-}
-
-/* Hide svg on playlist buttons */
-button.spoticon-play-16 svg,
-button.spoticon-pause-16 svg {
-		display: none !important;
 }
 
 /* Remove padding and backgrounds on cards */
