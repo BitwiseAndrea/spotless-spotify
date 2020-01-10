@@ -378,7 +378,7 @@ header.artist-header h1 {
 
 /* Extend background gradient */
 .af7ed65aa06ef3900474134b117200be-scss {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgb(18, 18, 18) 100%) !important;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgb(18, 18, 18) 100%) !important;
 }
 
 /* Playlist cards  play button centering */
