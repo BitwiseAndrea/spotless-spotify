@@ -17,7 +17,8 @@ body {
 	width: auto !important;
 }
 
-.Root__now-playing-bar {
+.Root__now-playing-bar,
+._26d9e31a05dd5fba3afe1b281ae2cf9e-scss ._66febc2caff37c822a831232b6e73171-scss {
 	background-color: rgb(0,0,0,0.15) !important;
 }
 
@@ -33,7 +34,9 @@ body {
 }
 
 .NavBar__download-item,
-.navBar-link--active {
+.navBar-link--active,
+._34098cfd13d48e2910679f35aea2c377-scss,
+._34098cfd13d48e2910679f35aea2c377-scss:hover {
 	background-color: transparent !important;
 }
 
