@@ -113,7 +113,9 @@ a.connect-title__help:hover {
 /* Getting rid of green */
 .btn.btn-green,
 .btn.btn-blue,
-button._8fec0262e00c11513faad732021ed012-scss {
+button._8fec0262e00c11513faad732021ed012-scss,
+._8fec0262e00c11513faad732021ed012-scss,
+._8fec0262e00c11513faad732021ed012-scss:hover {
 	background-color: transparent !important;
 }
 
@@ -128,6 +130,12 @@ button._11f5fc88e3dec7bfec55f7f49d581d78-scss {
 button._11f5fc88e3dec7bfec55f7f49d581d78-scss,
 button._8fec0262e00c11513faad732021ed012-scss {
 	border: 1.5px solid #ffffff !important;
+    transition-duration: .2s !important;
+    transition-timing-function: linear !important;
+}
+
+._8fec0262e00c11513faad732021ed012-scss {
+	border: 2px solid #ffffff !important;
     transition-duration: .2s !important;
     transition-timing-function: linear !important;
 }
