@@ -420,6 +420,10 @@ header.artist-header h1 {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.85) 100%) !important;
 }
 
+.a69c5b4d773e91fec62ac96606d44251-scss {
+	background: linear-gradient(135deg,#000,#fff) !important;
+}
+
 /* Playlist cards  play button centering */
 ._1de9257b60b3c93e84ea27e0f0862af8-scss {
     min-height: 52px !important;
