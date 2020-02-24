@@ -22,8 +22,8 @@ body {
 }
 
 .Rootlist__divider {
-	border-color: #ffffff;
-    opacity: 0.6;
+	border-color: #fff !important;
+    opacity: 0.6 !important;
 }
 
 .now-playing-bar-container {
