@@ -32,7 +32,8 @@ body {
 	margin-right: 16px !important;
 }
 
-.NavBar__download-item {
+.NavBar__download-item,
+.navBar-link--active {
 	background-color: transparent !important;
 }
 
