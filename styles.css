@@ -325,6 +325,15 @@ button.connect-device-list-item.connect-device-list-item--active {
 		width: 200px !important;
 		height: 200px !important;
 	}
+
+	._958f2c2b6b2a2b2456f034ab40efdd8e-scss {
+		height: 200px !important;
+	}
+
+	.cover-art {
+		max-width: 200px !important;
+		max-height: 200px !important;
+	}
 }
 
 /* Hide album cover art when the now playing bar gets small */
