@@ -21,10 +21,19 @@ body {
 	background-color: rgb(0,0,0,0.15) !important;
 }
 
+.Rootlist__divider {
+	border-color: #ffffff;
+    opacity: 0.6;
+}
+
 .now-playing-bar-container {
 	background-color: transparent !important;
 	border-top: none !important;
 	margin-right: 16px !important;
+}
+
+.NavBar__download-item {
+	background-color: transparent !important;
 }
 
 .navBar-group-header {
@@ -306,6 +315,15 @@ button.connect-device-list-item.connect-device-list-item--active {
 
 	.UserWidget__container {
 		padding: 8px 21px !important;
+	}
+
+	._4d7ff6840cca9e0da25e8df55e3a9475-scss {
+		height: 200px !important;
+	}
+
+	._4d7ff6840cca9e0da25e8df55e3a9475-scss .cover-art {
+		width: 200px !important;
+		height: 200px !important;
 	}
 }
 
