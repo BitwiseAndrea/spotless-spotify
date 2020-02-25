@@ -443,6 +443,16 @@ svg.ded5a23eeb23e836ffb86a831d247eab-scss {
     grid-column: 1/-1 !important;
 }
 
+/* Remove excessive padding on genre pages */
+.b52041c11d94a229b2b96389e3a11ce1-scss {
+	padding: 30px 0 0 !important;
+}
+
+.e2300c9b30532b21d4fab24ee0047c59-scss {
+	height: auto !important;
+}
+
+
 /*
 TODOs
 - Sample middle of gradient color for menus so they aren't just black
