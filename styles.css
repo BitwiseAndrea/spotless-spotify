@@ -440,7 +440,11 @@ header.artist-header h1 {
 }
 
 .a69c5b4d773e91fec62ac96606d44251-scss {
-	background: linear-gradient(135deg,#000,#fff) !important;
+	background: linear-gradient(135deg, transparent, rgba(255, 255, 255, 0.7)) !important;
+}
+
+.d3a60496d4f3220a5d8ee78c4547f503-scss.c72d5d517bc2c1b0a9ac45e5ce4016aa-scss.active .a69c5b4d773e91fec62ac96606d44251-scss {
+	background: linear-gradient(135deg,#450af5,#c4efd9) !important;
 }
 
 /* Playlist cards  play button centering */
