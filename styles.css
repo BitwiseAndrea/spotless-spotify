@@ -233,7 +233,8 @@ svg,
 .control-button--active:not(.control-button--disabled):active:focus,.control-button--active:not(.control-button--disabled):active:hover,
 .GlueDropTarget--active .media-object,
 .GlueDropTarget--active .media-object:after,
-.link-subtle {
+.link-subtle,
+._5b19a565b23999d36876ec6bf38a33bf-scss {
     color: #ffffff !important;
 }
 
@@ -465,7 +466,6 @@ svg.ded5a23eeb23e836ffb86a831d247eab-scss {
 .e2300c9b30532b21d4fab24ee0047c59-scss {
 	height: auto !important;
 }
-
 
 /*
 TODOs
