@@ -41,6 +41,7 @@ body {
 }
 
 .Rootlist__divider {
+	background-color: #fff !important;
 	border-color: #fff !important;
     opacity: 0.6 !important;
 }
@@ -142,8 +143,13 @@ button._8fec0262e00c11513faad732021ed012-scss,
 }
 
 /* Playlist play button background */
+._2ad467a52f00fff4e36adb25e591bf7c-scss button._11f5fc88e3dec7bfec55f7f49d581d78-scss,
+.c35a53c76b57e4920749760846dec11d-scss button._11f5fc88e3dec7bfec55f7f49d581d78-scss {
+	background-color: transparent !important
+}
+
 button._11f5fc88e3dec7bfec55f7f49d581d78-scss {
-	background-color: #000000 !important
+	background-color: #000 !important
 }
 
 /* Button borders */
@@ -234,7 +240,8 @@ svg,
 .GlueDropTarget--active .media-object,
 .GlueDropTarget--active .media-object:after,
 .link-subtle,
-._5b19a565b23999d36876ec6bf38a33bf-scss {
+._5b19a565b23999d36876ec6bf38a33bf-scss,
+.b86d4985215ef0b3ba87440586d38841-scss {
     color: #ffffff !important;
 }
 
