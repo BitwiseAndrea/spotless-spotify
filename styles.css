@@ -69,7 +69,7 @@ body {
 }
 
 .control-button--circled:after {
-	border-width: 1.5px !important;
+	border-width: 2px !important;
 }
 
 .ArtistAbout__insights {
@@ -133,37 +133,36 @@ a.connect-title__help:hover {
 	color: #000000 !important;
 }
 
-/* Getting rid of green */
-.btn.btn-green,
-.btn.btn-blue,
-button._8fec0262e00c11513faad732021ed012-scss,
-._8fec0262e00c11513faad732021ed012-scss,
-._8fec0262e00c11513faad732021ed012-scss:hover {
+._3802c04052af0bb5d03956299250789e-scss {
 	background-color: transparent !important;
 }
 
-/* Playlist play button background */
-._2ad467a52f00fff4e36adb25e591bf7c-scss button._11f5fc88e3dec7bfec55f7f49d581d78-scss,
-.c35a53c76b57e4920749760846dec11d-scss button._11f5fc88e3dec7bfec55f7f49d581d78-scss {
-	background-color: transparent !important
+/* Getting rid of green */
+.btn.btn-green,
+.btn.btn-blue,
+button._8e7d398e09c25b24232d92aac8a15a81-scss.e8b2fe03d4e4726484b879ed8ff6f096-scss,
+._8e7d398e09c25b24232d92aac8a15a81-scss.e8b2fe03d4e4726484b879ed8ff6f096-scss,
+._8e7d398e09c25b24232d92aac8a15a81-scss.e8b2fe03d4e4726484b879ed8ff6f096-scss:hover {
+	background-color: transparent !important;
 }
 
-button._11f5fc88e3dec7bfec55f7f49d581d78-scss {
+._3a2318b538bc2aae78113023036a879a-scss button._8e7d398e09c25b24232d92aac8a15a81-scss.e8b2fe03d4e4726484b879ed8ff6f096-scss {
 	background-color: #000 !important
+}
+
+._8e7d398e09c25b24232d92aac8a15a81-scss.e8b2fe03d4e4726484b879ed8ff6f096-scss {
+	border: 2px solid #ffffff !important;
+    transition-duration: .2s !important;
+    transition-timing-function: linear !important;
 }
 
 /* Button borders */
 .btn.btn-green,
 .btn.btn-blue,
 button._11f5fc88e3dec7bfec55f7f49d581d78-scss,
-button._8fec0262e00c11513faad732021ed012-scss {
+button._8fec0262e00c11513faad732021ed012-scss,
+._137ec408b14ac4ea5aec6ded3d95f328-scss.be059487cfa7b71ee0f482c8e5be2b7e-scss {
 	border: 1.5px solid #ffffff !important;
-    transition-duration: .2s !important;
-    transition-timing-function: linear !important;
-}
-
-._8fec0262e00c11513faad732021ed012-scss {
-	border: 2px solid #ffffff !important;
     transition-duration: .2s !important;
     transition-timing-function: linear !important;
 }
@@ -178,7 +177,8 @@ button._8fec0262e00c11513faad732021ed012-scss {
 	font-weight: var(--glue-font-weight-bold) !important;
 }
 
-.ConnectBar:after {
+.ConnectBar:after,
+._3a923fa2dfd1f66547507cb7a617062d-scss:after {
 	border-bottom-color: #ffffff !important;
 }
 .connect-device-list-container:before {
@@ -241,8 +241,18 @@ svg,
 .GlueDropTarget--active .media-object:after,
 .link-subtle,
 ._5b19a565b23999d36876ec6bf38a33bf-scss,
-.b86d4985215ef0b3ba87440586d38841-scss {
+.b86d4985215ef0b3ba87440586d38841-scss, /* As of 9/1/20 */
+.a65d8d62fe56eed3e660b937a9be8a93-scss,
+.a65d8d62fe56eed3e660b937a9be8a93-scss:hover,
+.e8ea6a219247d88aa936a012f6227b0d-scss._4b308d5c9250cfb0620ce3b40765ef4a-scss ._6b1ff8eab07810e2b7845ffe28430e38-scss,
+.e8ea6a219247d88aa936a012f6227b0d-scss._4b308d5c9250cfb0620ce3b40765ef4a-scss .da0bc4060bb1bdb4abb8e402916af32e-scss {
     color: #ffffff !important;
+}
+
+/* Make the loading indicator images match the gradient color */
+._918ff6c00e0a5647144abd99dcbd846d-scss {
+	filter: brightness(0) invert(1) !important;
+	opacity: 0.1 !important;
 }
 
 .navBar-item .GlueDropTarget--active:after,
@@ -413,9 +423,21 @@ a.navBar-link.link-subtle.RecentlyPlayedWidget__link.active {
 }
 
 /* New lil toast dudes are blue, lets make them white with black text */
-div[role=alert] {
+/* Same with the playing on other device thingy */
+div[role=alert],
+._3a923fa2dfd1f66547507cb7a617062d-scss {
 	background-color: #ffffff !important;
 	color: #000000 !important;
+}
+
+/* Create playlist */
+._9eb5acf729a98d62135ca21777fef244-scss {
+	background-color: #ffffff !important;
+	color: #000000 !important;
+}
+
+._110dbc41d89af63f97cdd8b7cd7fea47-scss {
+	border: 2px solid #ffffff !important;
 }
 
 /* Center headers */
@@ -436,23 +458,48 @@ header.artist-header h1 {
 }
 
 /* Remove padding and backgrounds on cards */
-._3cf7cb92e8b34cd675db241406113852-scss,
-._5658c6accf868644593ce36887a475b1-scss {
+._3802c04052af0bb5d03956299250789e-scss {
 		background: none !important;
 		padding: 5px 5px 4px !important;
 }
 
-/* Extend background gradient */
-.af7ed65aa06ef3900474134b117200be-scss {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.85) 100%) !important;
+/* Wrap titles of playlists */
+._3957b7dd066dbbba6a311b40a427c59f-scss {
+	white-space: normal !important;
 }
 
-.a69c5b4d773e91fec62ac96606d44251-scss {
+/* Have header span full width*/
+.b00fbb9732b9fe65ded1ba887be5aef9-scss {
+	max-width: 100% !important;
+}
+
+/* Extend background gradient */
+/*
+html {
+	 TODO change to match color of inner grid thing
+	background-color: transparent !important;
+}*/
+
+._59ed5f1313c7c4b211995d2b6463683f-scss {
+		height: 100% !important;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgb(16, 16, 16)) !important;
+}
+
+.cacb8cb3c5f560fff6c0be6aae25b5d0-scss {
+	background-color: transparent !important;
+}
+
+.Rootlist__playlists ._42e396c53c0ac7b28348a662fbea6b6e-scss .e9c3cf2352cbd27d4aaa4923727f9a70-scss {
 	background: linear-gradient(135deg, transparent, rgba(255, 255, 255, 0.7)) !important;
 }
 
-.d3a60496d4f3220a5d8ee78c4547f503-scss.c72d5d517bc2c1b0a9ac45e5ce4016aa-scss.active .a69c5b4d773e91fec62ac96606d44251-scss {
+.Rootlist__playlists ._42e396c53c0ac7b28348a662fbea6b6e-scss.active .e9c3cf2352cbd27d4aaa4923727f9a70-scss {
 	background: linear-gradient(135deg,#450af5,#c4efd9) !important;
+}
+
+/* Box shadow on playlist image */
+._4c838ef3d2b6da1a61669046bbfae3d1-scss {
+    box-shadow: 4px 4px 20px rgba(0,0,0,.5) !important;
 }
 
 /* Playlist cards  play button centering */
@@ -477,6 +524,11 @@ svg.ded5a23eeb23e836ffb86a831d247eab-scss {
 
 .e2300c9b30532b21d4fab24ee0047c59-scss {
 	height: auto !important;
+}
+
+/* Remove maxWidth from grid view */
+.contentSpacing {
+	max-width: none !important;
 }
 
 /*
