@@ -2,13 +2,17 @@
   "manifest_version": 2,
 
   "name": "Water for Spotify",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A cleaner UI for the Spotify web player.",
 
   "icons": {
 		"128": "/images/water.png"
 	},
 
+	"background": {
+		"page": "/background.html"
+  },
+  
   "content_scripts": [{
     "matches": ["https://open.spotify.com/*"],
     "css": ["/styles.css"],
@@ -16,6 +20,14 @@
 	  "run_at": "document_start"
   }],
 
+	"permissions": [
+		"contextMenus",
+		"webRequest",
+		"webRequestBlocking",
+		"*://api.spotify.com/*",
+		"*://open.spotify.com/*"
+  ],
+  
 	"web_accessible_resources": [
 		"*.css",
 		"*.png",

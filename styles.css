@@ -249,6 +249,11 @@ svg,
     color: #ffffff !important;
 }
 
+/* Make the little green playing icon green */
+._5814e6eb4f933d11bfa18c01b92eff76-scss {
+	filter: brightness(0) invert(1) !important;
+}
+
 /* Make the loading indicator images match the gradient color */
 ._918ff6c00e0a5647144abd99dcbd846d-scss {
 	filter: brightness(0) invert(1) !important;
@@ -272,6 +277,14 @@ svg,
 .btn.btn-blue:not(.disabled):hover,
 .contentSpacing > nav > ul > li > div > a:hover {
 	background-color: hsla(0,0%,100%,.1) !important;
+}
+
+/* Uhh... make the #b3b3b3 text semi transparent instead */
+.ec1b5762556429ac3aeedbae72433491-scss,
+._3a60fe1505c09248ad7c72d04a0cf07f-scss,
+._966e29b71d2654743538480947a479b3-scss a,
+.c6287512c50a737d01bd9db32b301fab-scss a {
+	color: hsla(0,0%,100%,.6) !important;
 }
 
 .feedbackBar-animation-enter,
@@ -529,6 +542,13 @@ svg.ded5a23eeb23e836ffb86a831d247eab-scss {
 /* Remove maxWidth from grid view */
 .contentSpacing {
 	max-width: none !important;
+}
+
+/* Full page gradient bring it BACK */
+
+/* This is the title bar */
+._83d9fef4ae69148dc1fc9b8323f8528b-scss._2dc8cce76d72af90f5e00e781db42541-scss {
+
 }
 
 /*
